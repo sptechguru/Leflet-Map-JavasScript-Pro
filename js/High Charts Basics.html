@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/highcharts.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Charts Basics </title>
+
+    
+    <script src="./High Charts Basics_files/highcharts.src.js"></script>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        span{
+            color: red;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+ 
+    <div id="box" data-highcharts-chart="0" style="overflow: hidden;"><div id="highcharts-mru37zy-0" dir="ltr" class="highcharts-container " style="position: relative; overflow: hidden; width: 655px; height: 400px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); user-select: none;"><svg version="1.1" class="highcharts-root" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="655" height="400" viewBox="0 0 655 400"><desc>Created with Highcharts 9.0.1</desc><defs><clippath id="highcharts-mru37zy-1-"><rect x="0" y="0" width="590" height="284" fill="none"></rect></clippath></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="655" height="400" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="55" y="45" width="590" height="284"></rect><g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1"><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 251.5 45 L 251.5 329" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 447.5 45 L 447.5 329" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 644.5 45 L 644.5 329" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 54.5 45 L 54.5 329" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1"><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 55 329.5 L 645 329.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 55 258.5 L 645 258.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 55 187.5 L 645 187.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 55 116.5 L 645 116.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 55 44.5 L 645 44.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" data-z-index="1" x="55" y="45" width="590" height="284"></rect><g class="highcharts-axis highcharts-xaxis" data-z-index="2"><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" data-z-index="7" d="M 55 329.5 L 645 329.5"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2"><text x="23.328125" data-z-index="7" text-anchor="middle" transform="translate(0,0) rotate(270 23.328125 187)" class="highcharts-axis-title" style="color:#666666;fill:#666666;" y="187">Developer Ranking...</text><path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 55 45 L 55 329"></path></g><g class="highcharts-series-group" data-z-index="3"><g class="highcharts-series highcharts-series-0 highcharts-scatter-series highcharts-color-0 highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(55,45) scale(1 1)" clip-path="url(#highcharts-mru37zy-1-)"></g><g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-0 highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(55,45) scale(1 1)"><path fill="#7cb5ec" d="M 98 217 A 4 4 0 1 1 98.00399999933333 216.99999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0"></path><path fill="#7cb5ec" d="M 295 146 A 4 4 0 1 1 295.00399999933336 145.99999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0"></path><path fill="#7cb5ec" d="M 491 75 A 4 4 0 1 1 491.00399999933336 74.99999800000016 Z" opacity="1" class="highcharts-point highcharts-color-0"></path></g><g class="highcharts-series highcharts-series-1 highcharts-scatter-series highcharts-color-1 highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(55,45) scale(1 1)" clip-path="url(#highcharts-mru37zy-1-)"></g><g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-1 highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(55,45) scale(1 1)"><path fill="#434348" d="M 98 209 L 102 213 L 98 217 L 94 213 Z" opacity="1" class="highcharts-point highcharts-color-1"></path><path fill="#434348" d="M 295 138 L 299 142 L 295 146 L 291 142 Z" opacity="1" class="highcharts-point highcharts-color-1"></path><path fill="#434348" d="M 491 67 L 495 71 L 491 75 L 487 71 Z" opacity="1" class="highcharts-point highcharts-color-1"></path></g><g class="highcharts-series highcharts-series-2 highcharts-scatter-series highcharts-color-2 highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(55,45) scale(1 1)" clip-path="url(#highcharts-mru37zy-1-)"></g><g class="highcharts-markers highcharts-series-2 highcharts-scatter-series highcharts-color-2 highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(55,45) scale(1 1)"><path fill="#90ed7d" d="M 689 142 A 0 0 0 1 1 689 142 Z" class="highcharts-halo highcharts-color-2" data-z-index="-1" fill-opacity="0.25" visibility="hidden"></path><path fill="#90ed7d" d="M 94 209 L 102 209 L 102 217 L 94 217 Z" opacity="1" class="highcharts-point highcharts-color-2" stroke-width="0.00003947789809188862"></path><path fill="#90ed7d" d="M 291 138 L 299 138 L 299 146 L 291 146 Z" opacity="1" class="highcharts-point highcharts-color-2" stroke-width="0.0006315216969912107"></path><path fill="#90ed7d" d="M 487 67 L 495 67 L 495 75 L 487 75 Z" opacity="1" class="highcharts-point highcharts-color-2" stroke-width="0.00008882380959551739"></path></g></g><text x="328" text-anchor="middle" class="highcharts-title" data-z-index="4" style="color:#333333;font-size:18px;fill:#333333;" y="24">My First Chart for 2D</text><text x="328" text-anchor="middle" class="highcharts-subtitle" data-z-index="4" style="color:#666666;fill:#666666;" y="44"></text><text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color:#666666;fill:#666666;" y="397"></text><g class="highcharts-legend" data-z-index="7" transform="translate(216,361)"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="222" height="24" visibility="visible"></rect><g data-z-index="1"><g><g class="highcharts-legend-item highcharts-scatter-series highcharts-color-0 highcharts-series-0" data-z-index="1" transform="translate(8,3)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph"></path><path fill="#7cb5ec" d="M 8 15 A 4 4 0 1 1 8.003999999333336 14.999998000000167 Z" class="highcharts-point" opacity="1"></path><text x="21" style="color:#333333;cursor:pointer;font-size:12px;font-weight:bold;fill:#333333;" text-anchor="start" data-z-index="2" y="15">Santosh</text></g><g class="highcharts-legend-item highcharts-scatter-series highcharts-color-1 highcharts-series-1" data-z-index="1" transform="translate(96.265625,3)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph"></path><path fill="#434348" d="M 8 7 L 12 11 L 8 15 L 4 11 Z" class="highcharts-point" opacity="1"></path><text x="21" y="15" style="color:#333333;cursor:pointer;font-size:12px;font-weight:bold;fill:#333333;" text-anchor="start" data-z-index="2">Kumar</text></g><g class="highcharts-legend-item highcharts-scatter-series highcharts-color-2 highcharts-series-2" data-z-index="1" transform="translate(176.109375,3)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph"></path><path fill="#90ed7d" d="M 4 7 L 12 7 L 12 15 L 4 15 Z" class="highcharts-point" opacity="1"></path><text x="21" y="15" style="color:#333333;cursor:pointer;font-size:12px;font-weight:bold;fill:#333333;" text-anchor="start" data-z-index="2">pal</text></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7"><text x="153.33333333333667" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">Ui Devloper</text><text x="349.9999999999967" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">java Developer</text><text x="546.6666666666666" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">Qa Devloper</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7"><text x="40" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="334" opacity="1">0</text><text x="40" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="263" opacity="1">1</text><text x="40" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="192" opacity="1">2</text><text x="40" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="121" opacity="1">3</text><text x="40" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="50" opacity="1">4</text></g><text x="645" class="highcharts-credits" text-anchor="end" data-z-index="8" style="cursor:pointer;color:#999999;font-size:9px;fill:#999999;" y="395">Highcharts.com</text><g class="highcharts-label highcharts-tooltip highcharts-color-2" style="cursor:default;white-space:nowrap;pointer-events:none;" data-z-index="8" transform="translate(724,-9999)" opacity="0" visibility="hidden"><path fill="none" class="highcharts-label-box highcharts-tooltip-box highcharts-shadow" d="M 3.5 0.5 L 36.5 0.5 C 39.5 0.5 39.5 0.5 39.5 3.5 L 39.5 56.5 C 39.5 59.5 39.5 59.5 36.5 59.5 L 25.5 59.5 L 19.5 65.5 L 13.5 59.5 L 3.5 59.5 C 0.5 59.5 0.5 59.5 0.5 56.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke="#000000" stroke-opacity="0.049999999999999996" stroke-width="5" transform="translate(1, 1)"></path><path fill="none" class="highcharts-label-box highcharts-tooltip-box highcharts-shadow" d="M 3.5 0.5 L 36.5 0.5 C 39.5 0.5 39.5 0.5 39.5 3.5 L 39.5 56.5 C 39.5 59.5 39.5 59.5 36.5 59.5 L 25.5 59.5 L 19.5 65.5 L 13.5 59.5 L 3.5 59.5 C 0.5 59.5 0.5 59.5 0.5 56.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke="#000000" stroke-opacity="0.09999999999999999" stroke-width="3" transform="translate(1, 1)"></path><path fill="none" class="highcharts-label-box highcharts-tooltip-box highcharts-shadow" d="M 3.5 0.5 L 36.5 0.5 C 39.5 0.5 39.5 0.5 39.5 3.5 L 39.5 56.5 C 39.5 59.5 39.5 59.5 36.5 59.5 L 25.5 59.5 L 19.5 65.5 L 13.5 59.5 L 3.5 59.5 C 0.5 59.5 0.5 59.5 0.5 56.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke="#000000" stroke-opacity="0.15" stroke-width="1" transform="translate(1, 1)"></path><path fill="rgba(247,247,247,0.85)" class="highcharts-label-box highcharts-tooltip-box" d="M 3.5 0.5 L 36.5 0.5 C 39.5 0.5 39.5 0.5 39.5 3.5 L 39.5 56.5 C 39.5 59.5 39.5 59.5 36.5 59.5 L 25.5 59.5 L 19.5 65.5 L 13.5 59.5 L 3.5 59.5 C 0.5 59.5 0.5 59.5 0.5 56.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke="#90ed7d" stroke-width="1"></path><text x="8" data-z-index="1" y="20" style="color:#333333;font-size:12px;fill:#333333;"><tspan style="fill:#90ed7d">●</tspan><tspan style="font-size: 10px"> pal</tspan><tspan class="highcharts-br" dy="15" x="8">​</tspan>x: <tspan style="font-weight:bold;">1</tspan><tspan class="highcharts-br" dy="15" x="8">​</tspan>y: <tspan style="font-weight:bold;">2</tspan><tspan class="highcharts-br">​</tspan></text></g></svg></div></div>
+
+<br>
+<br>
+<br>
+
+    <pre>
+        STEP-1st - "https://code.highcharts.com/highcharts.src.js"
+
+       
+        STEP-2nd   Hight Charts There are  11 Types:
+
+         <span> line, spline, area, areaspline, column, bar, pie, scatter, gauge,arearange, areasplinerange and columnrange.</span>
+          
+          For the full list of available chart types, see the API for Highcharts, Highcharts Stock, Highcharts Maps and Highcharts Gantt respectively.
+        
+    </pre>
+<br>
+        <pre>            STEP-3rd 
+            chart: {
+                type: 'line' | spline, area, areaspline, column, bar, pie, scatter, gauge, arearange, areasplinerange and columnrange
+            }
+        </pre>
+
+
+    <script>
+
+document.addEventListener('DOMContentLoaded',() => {
+
+    Highcharts.chart('box', {
+
+    chart:{
+        type:"scatter"
+    },
+
+    title:{
+        text:"My First Chart for 2D"
+    },
+
+
+  xAxis:{
+    categories:['Ui Devloper','java Developer', 'Qa Devloper']
+  },
+
+
+  yAxis:{
+        title:{
+            text:"Developer Ranking..."
+        }
+    },
+
+
+  series:[
+
+      {
+        name:'Santosh',
+        data:[1,2,3]
+      },
+
+      {
+        name:'Kumar',
+        data:[1,2,3]
+      },
+
+      {
+        name:'pal',
+        data:[1,2,3]
+      },
+],
+ 
+
+    })
+
+})
+
+
+    </script>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
